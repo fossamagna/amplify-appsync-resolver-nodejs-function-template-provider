@@ -1,0 +1,20 @@
+{
+  "name": "amplify-nodejs-function-template-appsync-resolver-provider",
+  "type": "util",
+  "commands": [
+    "version",
+    "help"
+  ],
+  "eventHandlers": [
+    "PreInit",
+    "PostInit",
+    "PrePush",
+    "PostPush",
+    "PrePull",
+    "PostPull",
+    "PostEnvAdd",
+    "PreCodegenModels",
+    "PostCodegenModels",
+    "InternalOnlyPostEnvRemove"
+  ]
+}
