@@ -2,9 +2,17 @@
   "name": "amplify-nodejs-function-template-appsync-resolver-provider",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "tsc",
+    "clean": "rimraf ./lib"
+  },
+  "devDependencies": {
+    "@types/node": "^16.11.1",
+    "amplify-cli-core": "^1.9.0",
+    "rimraf": "^3.0.2",
+    "typescript": "^4.1.2"
   },
   "author": "",
   "license": "ISC"
