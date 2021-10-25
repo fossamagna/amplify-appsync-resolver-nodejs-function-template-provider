@@ -1,0 +1,12 @@
+/**
+ * Using this as the entry point, you can use a single function to handle many resolvers.
+ */
+const resolvers = {<% for(var resolver of props.functionTemplate.parameters.resolvers) { %>
+  <%= resolver.name %>: {<% for(var fieldResolver of resolver.fieldResolvers) { %>
+    <%= fieldResolver.name %>: ctx => {
+      // Add your code here
+    },<% } %>
+  },<% } %>
+}
+
+exports.resolvers = resolvers;

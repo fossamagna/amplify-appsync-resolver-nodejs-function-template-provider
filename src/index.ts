@@ -1,16 +1,17 @@
-import { $TSAny, $TSContext } from 'amplify-cli-core';
-import * as path from 'path';
+import { FunctionTemplateContributorFactory } from 'amplify-function-plugin-interface';
+import { provideResolver } from './providers/resolverProvider';
 
-export async function executeAmplifyCommand(context: $TSContext) {
-  const commandsDirPath = path.normalize(path.join(__dirname, 'commands'));
-  const commandPath = path.join(commandsDirPath, context.input.command);
-  const commandModule = require(commandPath);
-  await commandModule.run(context);
-}
-
-export async function handleAmplifyEvent(context: $TSContext, args: $TSAny) {
-  const eventHandlersDirPath = path.normalize(path.join(__dirname, 'event-handlers'));
-  const eventHandlerPath = path.join(eventHandlersDirPath, `handle-${args.event}`);
-  const eventHandlerModule = require(eventHandlerPath);
-  await eventHandlerModule.run(context, args);
-}
+export const functionTemplateContributorFactory: FunctionTemplateContributorFactory = (context) => {
+  return {
+    contribute: (request) => {
+      switch (request.selection) {
+        case 'resolver': {
+          return provideResolver(context);
+        }
+        default: {
+          throw new Error(`Unknown template selection [${request.selection}]`);
+        }
+      }
+    }
+  }
+};

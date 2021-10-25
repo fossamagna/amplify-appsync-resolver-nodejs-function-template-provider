@@ -1,0 +1,9 @@
+{<% var resolver = props.functionTemplate.parameters.resolvers && props.functionTemplate.parameters.resolvers[0] %>
+  "typeName": "<%= resolver ? resolver.name : '' %>",<% var fieldResolver = resolver && resolver.fieldResolvers && resolver.fieldResolvers[0] %>
+  "fieldName": "<%= fieldResolver ? fieldResolver.name : '' %>",
+  "arguments": {},
+  "identity": {},
+  "source": {},
+  "request": {},
+  "prev": {}
+}
