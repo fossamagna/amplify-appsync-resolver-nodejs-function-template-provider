@@ -4,6 +4,10 @@
   "description": "Node.js Lambda function templates for AppSync Lambda resolver.",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fossamagna/amplify-appsync-resolver-nodejs-function-template-provider.git"
+  },
   "scripts": {
     "build": "tsc",
     "clean": "rimraf ./lib"
@@ -21,8 +25,16 @@
     "email" : "fossamagna2@gmail.com",
     "url" : "https://fossamagna.github.io/"
   },
-  "license": "ISC",
+  "license": "Apache-2.0",
   "dependencies": {
     "enquirer": "^2.3.6"
-  }
+  },
+  "keywords": [
+    "aws",
+    "amplify",
+    "lambda",
+    "nodejs",
+    "appsync",
+    "resolver"
+  ]
 }
