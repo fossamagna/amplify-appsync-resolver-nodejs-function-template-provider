@@ -32,7 +32,7 @@ npm install -g @aws-amplify/cli
    amplify plugin scan
    ```
 
-For additional details on plugins, see the AWS Amplify CLI plugins [docs](https://docs.amplify.aws/cli/usage/plugin).
+For additional details on plugins, see the AWS Amplify CLI plugins [docs](https://docs.amplify.aws/cli/plugins/plugins).
 
 ## Usage
 
