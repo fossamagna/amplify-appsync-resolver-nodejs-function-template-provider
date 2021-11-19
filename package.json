@@ -1,6 +1,6 @@
 {
   "name": "amplify-appsync-resolver-nodejs-function-template-provider",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Node.js Lambda function templates for AppSync Lambda resolver.",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
