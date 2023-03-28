@@ -15,8 +15,8 @@
     "release": "standard-version"
   },
   "devDependencies": {
-    "@commitlint/cli": "17.1.2",
-    "@commitlint/config-conventional": "17.1.0",
+    "@commitlint/cli": "17.5.1",
+    "@commitlint/config-conventional": "17.4.4",
     "@types/node": "16.11.59",
     "husky": "8.0.1",
     "rimraf": "3.0.2",
