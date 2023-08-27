@@ -372,9 +372,9 @@ amplify-cli-logger@1.1.0:
     winston-daily-rotate-file "^4.5.0"
 
 amplify-function-plugin-interface@^1.9.1:
-  version "1.9.1"
-  resolved "https://registry.yarnpkg.com/amplify-function-plugin-interface/-/amplify-function-plugin-interface-1.9.1.tgz#9ca2ed6aad4ad5f84ef2a21c31d250cb9a8a2572"
-  integrity sha512-6QfqF3S+y65P3eXH7XEgy2fX7dqD8806xdohs5a6BF5MdQW2FyVIarSzgp3eDqqPtNRmLhFYTOqNaNAbK01Gtg==
+  version "1.9.7"
+  resolved "https://registry.yarnpkg.com/amplify-function-plugin-interface/-/amplify-function-plugin-interface-1.9.7.tgz#cd872a8c619f5b50661e7ca073fa59feaed12b28"
+  integrity sha512-CMch7pWKtnEP8Y0OC8CTJ0vJSoT82yshG2e7dffkoxk29n7aeHgirMUFKgQ+MUFEXYsU+G5zJ4iksU/VtVQJ4w==
 
 amplify-prompts@1.2.0:
   version "1.2.0"
