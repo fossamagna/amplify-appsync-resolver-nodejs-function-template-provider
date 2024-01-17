@@ -21,7 +21,7 @@
     "husky": "8.0.3",
     "rimraf": "5.0.1",
     "standard-version": "9.5.0",
-    "typescript": "5.2.2"
+    "typescript": "5.3.3"
   },
   "author": {
     "name": "Masahiko Murakami",
