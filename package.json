@@ -33,7 +33,7 @@
     "amplify-cli-core": "^1.9.0",
     "amplify-function-plugin-interface": "^1.9.1",
     "enquirer": "^2.3.6",
-    "graphql-transformer-core": "^6.30.2"
+    "graphql-transformer-core": "^8.0.0"
   },
   "keywords": [
     "aws",
