@@ -19,7 +19,7 @@
     "@commitlint/config-conventional": "20.4.0",
     "@types/node": "18.19.130",
     "husky": "9.1.7",
-    "rimraf": "5.0.10",
+    "rimraf": "6.1.2",
     "standard-version": "9.5.0",
     "typescript": "5.9.3"
   },
