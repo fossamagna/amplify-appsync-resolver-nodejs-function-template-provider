@@ -17,7 +17,7 @@
   "devDependencies": {
     "@commitlint/cli": "20.4.0",
     "@commitlint/config-conventional": "20.4.0",
-    "@types/node": "18.19.130",
+    "@types/node": "24.10.12",
     "husky": "9.1.7",
     "rimraf": "5.0.10",
     "standard-version": "9.5.0",
